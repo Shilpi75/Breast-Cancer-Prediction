@@ -40,5 +40,4 @@ library("class")
 
 predict<-knn(training, testing,training.class,k = 10)
 table(testing.class,predict)
-accuracy=(99+69)/(99+69+5+2)
-accuracy
+
