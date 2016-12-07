@@ -48,3 +48,5 @@ data<-rbind(malignantdata,benigndata)
 data
 str(data)
 write.csv(data, file = "BreastCancer2.csv",row.names = TRUE)
+
+#run the fuzzy knn python file on the csv file saved "BreastCancer2.csv"
