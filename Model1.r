@@ -49,5 +49,4 @@ summary(treeModel)
 
 test.class=predict(treeModel,test[,3:11])
 table(test$Class,test.class)
-accuracy=(109+47)/(110+4+7+53)
-accuracy
+
