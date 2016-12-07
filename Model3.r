@@ -56,11 +56,5 @@ library(C50)
 library(caTools)
 
 treeModel<-C5.0(x=data[,3:11],y=data$Class)
-library(party)
-output.tree <- ctree(
-  Class ~ Uniformity_CellSize + Bland_Chromatin, 
-  data = input.dat)
 
-# Plot the tree.
-plot(output.tree)
 summary(treeModel)
