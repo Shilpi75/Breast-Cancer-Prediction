@@ -64,5 +64,4 @@ library(caTools)
 treeModel<-C5.0(x=data[,3:11],y=data$Class)
 summary(treeModel)
 
-accuracy<-(257+179+239)/699
-accuracy
+
