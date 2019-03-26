@@ -5,7 +5,7 @@ Breast Cancer Prediction using fuzzy clustering and classification
 The objective of these predictions is to assign patients to either a benign group that is noncancerous or a malignant group that is cancerous.
 
 # Dataset
-The experimental study is based on the Wisconsin Breast Cancer database from the UC Irvine Machine Learning Repository.
+The experimental study is based on the Wisconsin Breast Cancer database from the UC Irvine Machine Learning Repository. [Dataset Link](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(original))
 
 The Breast Cancer database was obtained from the University of Wisconsin Hospitals, Madison from Dr. William H. Wolberg. It contains 699 instances, 458 (65.5%) benign and 241 (34.5%) malignant cases. Each case is characterized by 9 attributes as described by Table I and two classes (benign and malignant).
 
